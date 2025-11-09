@@ -16,16 +16,16 @@
 }
 
 #phonenumber {
-  font-size: 8vw;
+  font-size: 7vw;
   animation: phonenumber 2s linear 0s infinite both;
 }
 
 #phonenumber h1 {
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 #phonenumber ul {
-  font-size: 4vw;
+  font-size: 3vw;
   list-style-type: none;
 }
 
