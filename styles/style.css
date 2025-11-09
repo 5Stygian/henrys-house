@@ -17,3 +17,22 @@
   font-size: 8vw;
   animation: phonenumber 2s linear 0s infinite both;
 }
+
+@keyframes body {
+  0% {
+    filter: saturation(100%) brightness(100%);
+    color: rgb(0, 0, 255);
+  }
+  50% {
+    filter: saturation(150%) brightness(150%);
+    color: rgb(0, 255, 0);
+  }
+  100% {
+    filter: saturation(200%) brightness(200%);
+    color: rgb(155, 0, 0); 
+  }
+}
+
+body {
+  animation: body 2s linear 0s infinite both;
+}
