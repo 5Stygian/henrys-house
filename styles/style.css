@@ -1,3 +1,19 @@
+@keyframes phonenumber {
+  0% {
+    filter: saturation(100%) brightness(100%);
+    color: rgb(255, 0, 0);
+  }
+  50% {
+    filter: saturation(150%) brightness(150%);
+    color: rgb(0, 255, 0);
+  }
+  100% {
+    filter: saturation(200%) brightness(200%);
+    color: rgb(0, 0, 255); 
+  }
+}
+
 #phonenumber {
   font-size: 8vw;
+  animation: 2s linear 0s infinite both sun-rise;
 }
