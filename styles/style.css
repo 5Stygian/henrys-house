@@ -15,5 +15,5 @@
 
 #phonenumber {
   font-size: 8vw;
-  animation: 2s linear 0s infinite both sun-rise;
+  animation: phonenumber 2s linear 0s infinite both;
 }
