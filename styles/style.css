@@ -18,6 +18,10 @@
   animation: phonenumber 2s linear 0s infinite both;
 }
 
+#phonenumber h1 {
+  font-size: 6vw;
+}
+
 #phonenumber ul {
   font-size: 4vw;
   list-style-type: none;
